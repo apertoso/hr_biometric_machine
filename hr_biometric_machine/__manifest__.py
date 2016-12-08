@@ -1,6 +1,6 @@
 {
     "name" : "Biometric Device Integration",
-    "version" : "1.0",
+    "version" : "10.0.1.0.0",
     "author" : "Gaurav Sahu",
     "category" : "Custom",
     "website" : "gauravsahu.odoo.com",
@@ -13,6 +13,7 @@
         "schedule.xml",
         "wizard/schedule_wizard.xml",
     ],
+    "external_dependencies": {'python': ['zklib']},
     "active": False,
     "installable": True
 }
